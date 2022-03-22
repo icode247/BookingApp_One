@@ -3,8 +3,8 @@ from amadeus import Client, ResponseError, Location
 from django.http import JsonResponse
 
 amadeus = Client(
-    client_id='CoArtPgeKZ5667oYQFCkFCBsv5PeV43Q',
-    client_secret='PbkxxwJuP5xL5aqX'
+    client_id='Your Public API KEY',
+    client_secret='Your Secret Key'
 )
 
 def select_destination(req, param):
